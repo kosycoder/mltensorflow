@@ -98,3 +98,6 @@ plt.show()
 pca = PCA(n_components=None)
 X_train_pca = pca.fit_transform(X_train_std)
 print(pca.explained_variance_ratio_)
+
+#%%
+
